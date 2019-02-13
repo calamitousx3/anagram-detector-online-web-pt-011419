@@ -9,14 +9,10 @@ class Anagram
   
   def match(array)
     array.select do |word|
-    word.split(" ")
+    word.split("").sort == @world.split("").sort
   end
  
 end 
 
 
 
-
-Loan.each do |amount, interest|
-    debt = debt + amount + (amount*interest)
-end
