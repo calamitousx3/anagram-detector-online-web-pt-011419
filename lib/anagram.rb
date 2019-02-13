@@ -7,6 +7,10 @@ class Anagram
     @word = word
   end 
   
-  binding.pry
+  
   
 end 
+
+
+
+#[1,2,3,4,5].select { |num|  num.even?  } 
