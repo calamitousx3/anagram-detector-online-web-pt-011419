@@ -11,7 +11,7 @@ class Anagram
     array.select do |word|
     word.split(" ")
   end
-  binding.pry
+ 
 end 
 
 
